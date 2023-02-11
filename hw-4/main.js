@@ -56,7 +56,7 @@
 //       alert( "Нет таких значений" );
 // }
 
-// time >= 9 & time < 12 ? alert( 'Будем рады Вас видеть!' ): time >= 13 & time < 23 ? alert( 'Будем рады Вас видеть!' ): time >= 23 & time < 24 ? alert( 'В это время мы не работаем' ): time >= 0 & time < 9 ? alert( 'В это время мы не работаем' ): time > 11.9 & time < 13 ? alert( 'У нвс обед' ) : alert( "Нет таких значений" );
+// time >= 9 && time < 12 ? alert( 'Будем рады Вас видеть!' ): time >= 13 && time < 23 ? alert( 'Будем рады Вас видеть!' ): time >= 23 && time < 24 ? alert( 'В это время мы не работаем' ): time >= 0 && time < 9 ? alert( 'В это время мы не работаем' ): time > 11.9 && time < 13 ? alert( 'У нвс обед' ) : alert( "Нет таких значений" );
 
 // 4
 
@@ -73,18 +73,25 @@
 
 // 5
 
-// let a = 0
+// let a = 1
 
 // if (a === 2) {
-//  a = a + 2
+//  a = a + 7
 //  console.log(a)
 // } else if ( a === 0) {
-//     a = a + 2
+//     a = a + 7
 //     console.log(a)
 // } else {
 //     a = a / 10
 //     console.log(a)
 // }
+
+// if (a === 2 || a === 0) {
+//     console.log( a + 7)
+// } else {
+//     console .log(a / 10)
+// }
+
 
 // 6
 
@@ -101,12 +108,30 @@
 //       alert( "Нет таких значений" );
 // }
 
+// if (age) {
+//     console.log('Есть')
+// } else {
+//     console.log('Нет')
+// }
+
 // 7
 
-// let a = 3
-//     b = 5
+// let a = 1
+//     b = 3
 
-// if (a <= 1 & b >= 3) {
+// if (a <= 1 && b >= 3) {
+//     console.log(a + b)
+// } else {
+//     console.log(a - b)
+// }
+
+// if (a <= 1 && b >= 3) {
+//     console.log(a + b)
+// } else {
+//     console.log(a - b)
+// }
+
+// if (a <= 1 || b >= 3) {
 //     console.log(a + b)
 // } else {
 //     console.log(a - b)
@@ -116,7 +141,7 @@
 
 // let age = 0
 
-// if ( age > 0 & age <= 17) {
+// if ( age > 0 && age <= 17) {
 //     console.log('Паша еще ребенок!')
 // } else if (age >= 18) {
 //     console.log('Паша стал взрослым!')
@@ -157,4 +182,5 @@
 
 // let time = prompt('Введите любое число', [])
 
-// time >= 0 & time <= 15 ? console.log('время относится к четверти часа') : time > 15 & time <= 30 ? console.log('время относится к половине часа') : time > 30 & time <= 45 ? console.log('время относится к 3/4 часа') : time > 45 & time <= 60 ? console.log('время относится к целому часу') : console.log("неизвестный диапазон"); 
+// time >= 0 && time <= 15 ? console.log('время относится к четверти часа') : time > 15 && time <= 30 ? console.log('время относится к половине часа') : time > 30 && time <= 45 ? console.log('время относится к 3/4 часа') : time > 45 && time <= 60 ? console.log('время относится к целому часу') : console.log("неизвестный диапазон"); 
+
