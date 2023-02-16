@@ -50,6 +50,19 @@
 
 // 6
 
+// let obj = {
+//     name:'Ivan',
+//     age: 26, 
+//     student: true
+// }
+
+// console.log(arr)
+
+// console.log(Object.keys(obj))
+// console.log(Object.values(obj))
+// console.log(Object.entries(obj))
+
+
 // 7
 
 // let obj = {
@@ -67,3 +80,37 @@
 // console.log(obj2,obj)
 
 // 8
+
+// let arr = ['bmw', 'honda','mers','lexus']
+
+// arr.pop()
+
+// console.log(arr)
+
+// 9
+
+// let arr = ['bmw', 'honda','mers','lexus']
+
+// console.log(arr.pop())
+
+// 10
+
+// let arr = ['bmw', 'honda','mers','lexus']
+
+// arr[1] = 'toyota'
+
+// console.log(arr)
+
+// 11
+
+// let arr = ['bmw', 'honda','mers','lexus']
+
+// arr.unshift('kia')
+
+// console.log(arr)
+
+// 12
+
+// let arr = ['bmw', 'honda','mers','lexus']
+
+// console.log(arr.length)
