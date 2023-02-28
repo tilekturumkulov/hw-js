@@ -86,6 +86,13 @@
 // }
 // console.log(newArr)
 
+// for (let i = 0; i < arr.length; i++ ) {
+//     if (arr[i] === arr[i].toUpperCase()) {
+//         newArr = [...newArr, arr[i]]
+//     }
+// }
+
+// console.log(newArr)
 
 
 
