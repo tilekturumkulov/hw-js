@@ -60,16 +60,16 @@
 
 // 8
 
-// const task8 = (arr) => {
-//     return arr.map((item) => item ** 3).map((item) => {
-//         if (item % 3 === 0 && item % 5 === 0) {
-//             item = 0
-//         }
-//         return item
-//     })
-// }
+const task8 = (arr) => {
+    return arr.map((item) => item ** 3).map((item) => {
+        if (item % 3 === 0 && item % 5 === 0) {
+            item = 0
+        }
+        return item
+    })
+}
 
-// console.log(task8([7, 8, 15, 30, 2]));
+console.log(task8([7, 8, 15, 30, 2]));
 
 // 9 
 

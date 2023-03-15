@@ -54,12 +54,12 @@
 //         return 'Negative'
 //     } else if (a > 0) {
 //         return 'Positive'
-//     } else if (a === 0) {
-//         return 'Zero'
 //     }
+//     return 'Zero'
+
 // }
 
-// console.log(task6(0));
+// console.log(task6(-1));
 
 // 7
 
@@ -67,9 +67,9 @@
 //     for (let i = 0; i < str.length; i++) {
 //         if (str === str.toUpperCase()) {
 //             return str.toLowerCase()
-//         } else if (str === str.toLowerCase()) {
-//             return str.toUpperCase()
 //         }
+//         return str.toUpperCase()
+
 //     }
 // }
 
@@ -88,9 +88,9 @@
 // function task9(obj) {
 //     if (obj.name.length % 2 === 0) {
 //         return 0
-//     } else if (obj.name.length % 2 === 1) {
-//         return 1
 //     }
+//     return 1
+
 // }
 
 // console.log(task9({ name: 'Tilek' }))
@@ -102,9 +102,9 @@
 //         return 1
 //     } else if (a < b) {
 //         return -1
-//     } else if (a === b) {
+//     } 
 //         return 0
-//     }
+//     
 // }
 
 // console.log(task10(5, 7))
@@ -118,9 +118,9 @@
 //         return 'Yoda'
 //     } else if (num % 3 === 0) {
 //         return 'Master'
-//     } else if (num % 3 !== 0 && num % 5 !== 0) {
-//         return num
 //     }
+//     return num
+
 // }
 
 // console.log(task11(16))
